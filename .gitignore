@@ -1,0 +1,14 @@
+# Ignore large datasets and media files to prevent GitHub push errors
+Wind-Turbine-Detection/Raw_Data/
+Wind-Turbine-Detection/Duplicates/
+Wind-Turbine-Detection/Segmentation/
+Wind-Turbine-Detection/Main/
+Drone-Payload-Detection/Raw_Videos/
+Frame-Extraction-Utilities/Frame Conversion Videos/
+
+# Ignore large video files and archives
+*.mp4
+*.avi
+*.mov
+*.zip
+*.rar
