@@ -1,8 +1,12 @@
-# Ignore large datasets and media files to prevent GitHub push errors
-Wind-Turbine-Detection/Raw_Data/
-Wind-Turbine-Detection/Duplicates/
-Wind-Turbine-Detection/Segmentation/
-Wind-Turbine-Detection/Main/
+# Ignore massive image datasets and archives inside Wind-Turbine-Detection
+Wind-Turbine-Detection/**/*.png
+Wind-Turbine-Detection/**/*.jpg
+Wind-Turbine-Detection/**/*.jpeg
+Wind-Turbine-Detection/**/*.zip
+Wind-Turbine-Detection/**/*.txt
+Wind-Turbine-Detection/**/*.cache
+
+# Other heavy datasets
 Drone-Payload-Detection/Raw_Videos/
 Frame-Extraction-Utilities/Frame Conversion Videos/
 
@@ -10,5 +14,4 @@ Frame-Extraction-Utilities/Frame Conversion Videos/
 *.mp4
 *.avi
 *.mov
-*.zip
 *.rar
