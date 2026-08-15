@@ -1,0 +1,10 @@
+path: C:\Users\sarmu\Desktop\REUDE\WINDMILL\wind_turbine_dataset
+train: images/train
+val: images/val
+test: images/test
+
+# Classes (adjust names based on your dataset)
+nc: 2
+names:
+  0: damage_type_0
+  1: damage_type_1

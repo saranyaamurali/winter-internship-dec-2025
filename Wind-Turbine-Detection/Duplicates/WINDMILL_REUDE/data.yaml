@@ -1,0 +1,8 @@
+path: wind_turbine_dataset
+train: images/train
+val: images/val
+
+nc: 2
+names:
+  - damage_type_0
+  - damage_type_1
